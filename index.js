@@ -12,10 +12,10 @@ function nowServing(katzDeliLine){
  else {
    for (var i = 0; i < katzDeliLine.length; i++){
      return (`Currently serving ${katzDeliLine[0]}.`)
-    
+    katzDeliLine.shift();
  
    }
-    katzDeliLine.shift();
+    
 }
 } 
   
